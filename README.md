@@ -65,3 +65,39 @@ SQL analyses were developed to support:
 - Transformed transactional data into a star schema for faster business reporting and aggregation.
 - Used SQL and JSON logic to identify inventory risks, high-value customers, and cross-selling opportunities.
 - Designed the system to support future Tableau/Power BI dashboards, forecasting, and AI-driven recommendations.
+
+## System Design
+
+### High-Level Architecture
+![System Architecture](diagrams/system-architecture.png)
+
+### OLTP ER Diagram
+![OLTP ER Diagram](diagrams/oltp-er-diagram.png)
+
+### OLAP Star Schema
+![OLAP Star Schema](diagrams/olap-star-schema.png)
+
+## Business Analytics Examples
+
+### Cross-Selling Analysis
+![Cross-Selling Analysis](images/cross-selling-analysis.png)
+
+The basket analysis identified frequently purchased product pairs, supporting bundle offers, product placement, and recommendation opportunities.
+
+### Inventory Alerts
+![Inventory Alerts](images/inventory-alerts.png)
+
+Inventory monitoring classified stock levels to help identify products requiring replenishment and reduce stockout risk.
+
+### Personalized Recommendations
+![Personalized Recommendations](images/personalized-recommendations.png)
+
+Customer preferences and loyalty data stored in JSON were used to generate category-based product recommendations and loyalty-adjusted pricing.
+
+## Project Files
+
+- [Final Report](report/smart-retail-analytics-hub-report.pdf)
+- [OLTP Schema](sql/01_oltp_schema.sql)
+- [OLAP Star Schema](sql/02_olap_star_schema.sql)
+- [Business Analytics Queries](sql/03_business_analytics.sql)
+- [JSON Analytics & Personalization](sql/04_json_analytics.sql)

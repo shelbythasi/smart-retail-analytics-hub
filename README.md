@@ -48,7 +48,7 @@ A star schema centered on `Fact_Sales` with:
 Semi-structured customer profiles and order data used to support flexible customer attributes, preferences, and personalized analytics.
 
 ## Business Analytics Use Cases
-SQL analyses were developed to support:
+The project explored business analytics use cases including:
 
 - Daily revenue and average order value monitoring
 - Inventory status and low-stock alerts

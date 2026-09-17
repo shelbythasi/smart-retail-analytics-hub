@@ -98,6 +98,6 @@ Customer preferences and loyalty data stored in JSON were used to generate categ
 
 - [Final Report](report/smart-retail-analytics-hub-report.pdf)
 - [OLTP Schema](sql/01_oltp_schema.sql)
-- [OLAP Star Schema](sql/02_olap_star_schema.sql)
+- [OLAP Star Schema – Portfolio Reconstruction](sql/02_olap_star_schema.sql)
 - [Business Analytics Queries](sql/03_business_analytics.sql)
 - [JSON Analytics & Personalization](sql/04_json_analytics.sql)
